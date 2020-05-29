@@ -1,0 +1,28 @@
+<div class="card my-5">
+  <div class="card-body">
+    <h2 class="bg-secondary text-center text-white py-3">Covid Global Statistics</h2>
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">New Confirmed Cases</th>
+        <th scope="col">Total Confirmed Cases</th>
+        <th scope="col">New Deaths</th>
+        <th scope="col">Total Deaths</th>
+        <th scope="col">New Recovered</th>
+        <th scope="col">Total Recovered</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{global.NewConfirmed}}</td>
+          <td>{{global.TotalConfirmed}}</td>
+          <td>{{global.NewDeaths}}</td>
+          <td>{{global.TotalDeaths}}</td>
+          <td>{{global.NewRecovered}}</td>
+          <td>{{global.TotalRecovered}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<app-covid-countries></app-covid-countries>
